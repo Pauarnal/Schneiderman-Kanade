@@ -1,0 +1,1 @@
+Get-ChildItem "testsfb" | Foreach-Object {.\main.py testsfb\$_}
